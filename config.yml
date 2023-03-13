@@ -1,0 +1,7 @@
+host: 0.0.0.0
+port: 8090
+ssl: false
+allowed_origins:
+  - "*"
+# cert: certs/MyCertificate.crt
+# key: certs/MyKey.key

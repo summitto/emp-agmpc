@@ -1,0 +1,4 @@
+#!/bin/bash
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+$1 1 12345 $SCRIPT_DIR &			$1 2 12345 $SCRIPT_DIR
